@@ -1,0 +1,54 @@
+/* criar variaveis */
+:root{
+--cor-principal:white;
+}
+
+body{
+    margin: 20px;
+    background:rgb(158, 158, 158) ;
+    color: white;
+}
+
+.profile-image img {
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid var(--cor-principal);
+
+}
+
+.container {
+    text-align: center;
+
+}
+
+.content {
+    color: white;
+    width: 740px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 2px 0;
+}
+
+.logo-github{
+    text-align: center;
+    width: 50px;
+}
+.logo-linkedin{
+    text-align: center;
+    width: 50px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 5px;
+    
+}
