@@ -3,28 +3,76 @@
 --cor-principal:white;
 }
 
+/* Configurações do corpo d página */
 body{
-    margin: 20px;
+    /* margin: 20px;
     background:rgb(158, 158, 158) ;
     color: white;
+    text-align: center; */
+    margin: 0;
+    background:rgb(158, 158, 158) ;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
+/* Configurações do conteúdo da página */
+.container {
+    text-align:justify;
+}
+
+/* Configurações da foto de perfil */
 .profile-image img {
     width: 300px;
     border-radius: 50%;
     border: 3px solid var(--cor-principal);
 
 }
-
-.container {
+/* Centralizar foto de perfil */
+.profile-image{
     text-align: center;
+   
+}
+
+/* Título principal  */
+.profile-info{
+    text-align: center;
+    color: white;
+    
 
 }
 
+/* Título secundário  */
+.info{
+    margin-bottom: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/* Texto dos dois primeiros parágrafos */
 .content {
     color: white;
     width: 740px;
     margin: 0 auto;
+    font-size: 18px;
+    margin-bottom: 50px;
+    
+}
+
+.titulo{
+    margin: 25px;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+/* Lista desativada */
+/* .list{
+    text-align: center;
 }
 
 ul{
@@ -34,15 +82,52 @@ ul{
 
 ul li {
     padding: 2px 0;
+} */
+
+/* Icones das linguagens */
+.icones{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 5px;
+    margin: 10px;
 }
 
-.logo-github{
+.logo-java{
     text-align: center;
     width: 50px;
+    margin-bottom: 50px;
 }
-.logo-linkedin{
+
+.logo-css{
     text-align: center;
     width: 50px;
+    margin-bottom: 50px;
+}
+
+.logo-html{
+    text-align: center;
+    width: 50px;
+    margin-bottom: 50px;
+}
+
+.logo-git{
+    text-align: center;
+    width: 50px;
+    margin-bottom: 50px;
+}
+.logo-javascript{
+    text-align: center;
+    width: 50px;
+    margin-bottom: 50px;
+}
+
+/* Rodapé da página */
+.rodape{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    width: 100%; 
 }
 
 .links{
@@ -50,5 +135,22 @@ ul li {
     justify-content: center;
     gap: 5px;
     padding-top: 5px;
+    text-align: center;
+
+}
+
+.logo-github{
+    text-align: center;
+    width: 50px;
     
+}
+
+.logo-linkedin{
+    text-align: center;
+    width: 50px;
+}
+
+.logo-instagram{
+    text-align: center;
+    width: 50px;
 }
