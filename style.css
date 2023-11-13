@@ -155,3 +155,7 @@ ul li {
     text-align: center;
     width: 50px;
 }
+
+.links a {
+        text-decoration: none;
+    }
